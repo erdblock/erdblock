@@ -1,0 +1,23 @@
+doctype html
+html
+	head
+		title #{title}
+		link(href="./stylesheets/style.css", rel="stylesheet")
+		link(href="./stylesheets/plugins.css", rel="stylesheet")
+		meta(name="viewport", content="width=device-width")
+	body
+		header
+			div(class="cover")
+			img(class="profile" src="./assets/profile.png", alt="Profilbild")
+			h1 #{title}
+			h2 #{subtitle}
+		main
+			div(class="wrapper")
+				div(class="columns")
+					- priorityCache.forEach(function(cache){
+						- var plugin = pluginData[cache.key].plugin
+						div(class="pluginWrapper")
+							section(class="plugin", id=plugin.locals.uuid) !{plugin.html()}
+							div(class="space")
+					- })
+		footer
