@@ -2,7 +2,6 @@
 	"name": "erdblock",
 	"version": "0.0.0",
 	"description": "Erdblock is a modular personal webpage, which stays up to date automatically.",
-	"private": true,
 	"dependencies": {
 		"express": "~4.12.2",
 		"jade": "~1.9.2",
