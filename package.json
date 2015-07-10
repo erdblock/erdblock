@@ -14,5 +14,5 @@
 		"compression": "x",
 		"uuid": "x"
 	},
-	"main": "app.js"
+	"main": "index.js"
 }

@@ -108,7 +108,7 @@ erdblock.addPlugin(website)
 app.listen(3000)
 ```
 
-Look at the [erdblock-default](https://gitlab01.markab.uberspace.de/erdblock-default) for more examples.
+Look at the [erdblock-default](https://github.com/erdblock/erdblock-default) for more examples.
 
 
 ## Licence
