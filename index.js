@@ -6,10 +6,11 @@ var less = require("less")
 var expressLess = require('express-less')
 var compression = require('compression')
 var uuid = require("uuid")
+var jade = require("jade")
 
 module.exports = function(){
 	var app = express()
-
+	app.set('view engine', 'jade');
 
 	/**
 		Main Object to store all plugins
@@ -55,7 +56,7 @@ module.exports = function(){
 	app.use("/stylesheets", expressLess(__dirname + "/stylesheets"))
 
 	app.get("/", function(req, res){
-		res.render(__dirname + "/views/layout.jade", app.locals)
+		res.render("layout")
 	})
 
 
