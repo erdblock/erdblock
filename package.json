@@ -1,17 +1,17 @@
 {
-	"name": "erdblock",
-	"version": "0.1.0",
-	"description": "Erdblock is a modular personal webpage, which stays up to date automatically.",
-	"dependencies": {
-		"express": "~4.12.2",
-		"jade": "~1.9.2",
-		"serve-favicon": "~2.2.0",
-		"is": "x",
-		"express-less": "x",
-		"less": "x",
-		"request": "x",
-		"compression": "x",
-		"uuid": "x"
-	},
-	"main": "index.js"
+  "name": "erdblock",
+  "version": "0.1.0",
+  "description": "Erdblock is a modular personal webpage, which stays up to date automatically.",
+  "dependencies": {
+    "compression": "^1.5.1",
+    "express": "^4.12.4",
+    "express-less": "0.0.7",
+    "is": "^3.0.1",
+    "jade": "^1.9.2",
+    "less": "^2.5.1",
+    "request": "^2.58.0",
+    "serve-favicon": "^2.2.1",
+    "uuid": "^2.0.1"
+  },
+  "main": "index.js"
 }
