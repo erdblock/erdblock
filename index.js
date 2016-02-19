@@ -56,7 +56,7 @@ module.exports = function(){
 	app.use("/stylesheets", expressLess(__dirname + "/stylesheets"))
 
 	app.get("/", function(req, res){
-		res.render("layout")
+		res.render(__dirname+"/views/layout")
 	})
 
 
