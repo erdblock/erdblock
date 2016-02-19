@@ -1,6 +1,6 @@
 {
   "name": "erdblock",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Erdblock is a modular personal webpage, which stays up to date automatically.",
   "dependencies": {
     "compression": "^1.5.1",
